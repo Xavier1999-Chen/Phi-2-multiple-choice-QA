@@ -279,7 +279,7 @@ def main():
 #             '''
 
 #             from zhipuai import ZhipuAI
-#             client = ZhipuAI(api_key="2d100eef7950cc860710345fa29c8b69.VtfECNPQNlJ205C9") # 填写您自己的APIKey
+#             client = ZhipuAI(api_key="") # 填写您自己的APIKey
 #             response = client.chat.completions.create(
 #                 model="glm-4",  # 填写需要调用的模型名称
 #                 messages=[
@@ -311,7 +311,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# outputs = model(encoding["input_ids"], attention_mask=encoding["attention_mask"])#model("Write Your Code Here")
-# log_likelihood = -F.nll_loss(F.log_softmax(outputs.logits, dim=-1), encoding["labels"], reduction='none')#"Write Your Code Here"
-            
+         
